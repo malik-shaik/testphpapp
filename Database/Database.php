@@ -3,10 +3,10 @@ class Database
 {
     // DB Params
 
-    private $host = getenv['HOST'];
-    private $db_name = getenv['DB_NAME'];
-    private $username = getenv['DB_USER'];
-    private $password = getenv['DB_PASS'];
+    private $host = $_ENV['HOST'];
+    private $db_name = $_ENV['DB_NAME'];
+    private $username = $_ENV['DB_USER'];
+    private $password = $_ENV['DB_PASS'];
     private $conn;
 
     // DB Connect
